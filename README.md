@@ -1,4 +1,4 @@
-                                              WHAT IS PixelOS FOUR?
+WHAT IS PixelOS FOUR?
 Pixel OS FOUR is the third revival (and the 4th version) in the Pixel OS series, this time being made in TURBOWARP.
 
 WHY TURBOWARP?
