@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <!-- We only include this to explicitly loosen the CSP of various packager environments. It does not provide any security. -->
   <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: blob:">
-  <title>index</title>
+  <title>PixelOSFour</title>
   <style>
     body {
       color: #ffffff;
@@ -16,7 +16,7 @@
       padding: 0;
     }
     :root, body.is-fullscreen {
-      background-color: #000000;
+      background-color: #ffffff;
     }
     [hidden] {
       display: none !important;
@@ -46,7 +46,7 @@
       cursor: default;
       user-select: none;
       -webkit-user-select: none;
-      background-color: #000000;
+      background-color: #ffffff;
     }
     #launch {
       background-color: rgba(0, 0, 0, 0.7);
@@ -65,7 +65,10 @@
       box-sizing: border-box;
     }
     #loading {
-      
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIyMDAuMDQ0NyIgaGVpZ2h0PSIyMDQuNjM4ODUiIHZpZXdCb3g9IjAsMCwyMDAuMDQ0NywyMDQuNjM4ODUiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yMTkuOTI3NCwtNzcuNzAxMjIpIj48ZyBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCI+PHBhdGggZD0iTTI2MC43NjcxOCwyNTAuNDM5MzN6IiBmaWxsPSIjMDAwMDAwIiBzdHJva2Utd2lkdGg9IjAiLz48cGF0aCBkPSJNMjI4LjUzODI0LDIwNy41NTgxM2MtMi4yNTYwMSwtMjkuMTE0NzcgLTYuNTE0NTMsLTg0LjA3MzI2IC03LjgwMDg5LC0xMDAuNjc0MzRjLTAuNzQyODIsLTkuNTg2MjkgNS40Nzg2NywtMTkuNjg3NDQgMTUuMjk1MzUsLTIwLjQ0ODA5YzE2LjEzNDI0LC0xLjI1MDIgNzMuNTY4NzQsLTUuNzAwNiAxMDMuMDQzMTksLTcuOTg0NDhjMTMuMTIwNjYsLTEuMDE2NjggMTkuNzMzMjcsNi4wNzA4NiAyMC40OTM5MiwxNS44ODc1NGMwLjU5ODksNy43Mjg5NCAxLjkyNjM4LDI0Ljg2MDcyIDMuMzk1NjcsNDMuODIyOTdjMS41MzcxMSwxOS44MzcgMy4yMjk0Miw0MS42NzcxOCA0LjQwNTIzLDU2Ljg1MTQzYzEuMDkwOTQsMTQuMDc5MTIgLTYuODY2NjEsMjEuNTgyMTggLTE1Ljc0OTg3LDIyLjI3MDQ5Yy0xNi44NjMwOSwxLjMwNjY2IC03Ni4wNTE3NSw1Ljg5Mjk4IC0xMDQuODE5NzksOC4xMjIxMmMtOS44MzczOSwwLjc2MjI3IC0xNy4zNzE5OCwtNi4zNTE0MSAtMTguMjYyNzcsLTE3Ljg0Nzc1eiIgZmlsbD0iIzI3ZmYwMCIgc3Ryb2tlLXdpZHRoPSIxLjUiLz48cGF0aCBkPSJNMjQ3Ljg3NTQ2LDIzMy45NjAwOWMtMi4yNTYwMSwtMjkuMTE0NzcgLTYuNTE0NTMsLTg0LjA3MzI3IC03LjgwMDg5LC0xMDAuNjc0MzVjLTAuNzQyODIsLTkuNTg2MjkgNS40Nzg2OCwtMTkuNjg3NDQgMTUuMjk1MzYsLTIwLjQ0ODA5YzE2LjEzNDI0LC0xLjI1MDIgNzMuNTY4NzQsLTUuNzAwNiAxMDMuMDQzMTksLTcuOTg0NDhjMTMuMTIwNjYsLTEuMDE2NjggMTkuNzMzMjYsNi4wNzA4NiAyMC40OTM5MSwxNS44ODc1NWMwLjU5ODksNy43Mjg5NCAxLjkyNjM4LDI0Ljg2MDcyIDMuMzk1NjcsNDMuODIyOTdjMS41MzcxMSwxOS44MzcgMy4yMjk0Miw0MS42NzcxOCA0LjQwNTIzLDU2Ljg1MTQzYzEuMDkwOTQsMTQuMDc5MTIgLTYuODY2NjEsMjEuNTgyMTggLTE1Ljc0OTg3LDIyLjI3MDQ5Yy0xNi44NjMwOSwxLjMwNjY2IC03Ni4wNTE3NSw1Ljg5Mjk4IC0xMDQuODE5NzksOC4xMjIxM2MtOS44MzczOSwwLjc2MjI3IC0xNy4zNzE5OCwtNi4zNTE0MiAtMTguMjYyNzgsLTE3Ljg0Nzc2eiIgZmlsbD0iIzEyMDBmZiIgc3Ryb2tlLXdpZHRoPSIxLjUiLz48cGF0aCBkPSJNMjgwLjM4OTYyLDI2My43NDI0M2MtMi4yNTYwMSwtMjkuMTE0NzcgLTYuNTE0NTYsLTg0LjA3MzI3IC03LjgwMDg5LC0xMDAuNjc0MzVjLTAuNzQyODIsLTkuNTg2MjkgNS40Nzg2NywtMTkuNjg3NDQgMTUuMjk1MzUsLTIwLjQ0ODA5YzE2LjEzNDI0LC0xLjI1MDE4IDczLjU2ODc0LC01LjcwMDYgMTAzLjA0MzE5LC03Ljk4NDQ3YzEzLjEyMDY2LC0xLjAxNjY4IDE5LjczMzI3LDYuMDcwODYgMjAuNDkzOTIsMTUuODg3NTRjMC41OTg5LDcuNzI4OTQgMS45MjYzOCwyNC44NjA3MSAzLjM5NTY5LDQzLjgyMjk3YzEuNTM3MTEsMTkuODM3IDMuMjI5NDIsNDEuNjc3MTggNC40MDUyMyw1Ni44NTE0M2MxLjA5MDk0LDE0LjA3OTExIC02Ljg2NjYsMjEuNTgyMTcgLTE1Ljc0OTg3LDIyLjI3MDQ4Yy0xNi44NjMwOSwxLjMwNjY2IC03Ni4wNTE3Niw1Ljg5Mjk4IC0xMDQuODE5NzksOC4xMjIxMmMtOS44MzczOSwwLjc2MjI3IC0xNy4zNzE5NSwtNi4zNTEzOSAtMTguMjYyNzcsLTE3Ljg0NzczeiIgZmlsbD0iI2ZmMDAwMCIgc3Ryb2tlLXdpZHRoPSIxLjUiLz48L2c+PC9nPjwvc3ZnPjwhLS1yb3RhdGlvbkNlbnRlcjoxMDAuMDcyNjAzNTk4NzUyNjE6MTAyLjI5ODc4LS0+);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
     }
     .progress-bar-outer {
       border: 1px solid currentColor;
@@ -111,10 +114,10 @@
       border-radius: 4px;
     }
     .control-button-highlight:hover {
-      background: #ff4c4c26;
+      background: #ffffff26;
     }
     .control-button-highlight.active {
-      background: #ff4c4c59;
+      background: #ffffff59;
     }
     .fullscreen-button {
       background: white;
@@ -132,18 +135,18 @@
       cursor: auto;
     }
     .sc-monitor-root[data-opcode^="data_"] .sc-monitor-value-color {
-      background-color: #ff8c1a;
+      background-color: #ffffff;
     }
     .sc-monitor-row-value-outer {
-      background-color: #fc662c;
+      background-color: #ffffff;
     }
     .sc-monitor-row-value-editing .sc-monitor-row-value-outer {
-      background-color: #e25b27;
+      background-color: #e5e5e5;
     }
     
   </style>
-  <meta name="theme-color" content="#000000">
-  
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIyMDAuMDQ0NyIgaGVpZ2h0PSIyMDQuNjM4ODUiIHZpZXdCb3g9IjAsMCwyMDAuMDQ0NywyMDQuNjM4ODUiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yMTkuOTI3NCwtNzcuNzAxMjIpIj48ZyBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCI+PHBhdGggZD0iTTI2MC43NjcxOCwyNTAuNDM5MzN6IiBmaWxsPSIjMDAwMDAwIiBzdHJva2Utd2lkdGg9IjAiLz48cGF0aCBkPSJNMjI4LjUzODI0LDIwNy41NTgxM2MtMi4yNTYwMSwtMjkuMTE0NzcgLTYuNTE0NTMsLTg0LjA3MzI2IC03LjgwMDg5LC0xMDAuNjc0MzRjLTAuNzQyODIsLTkuNTg2MjkgNS40Nzg2NywtMTkuNjg3NDQgMTUuMjk1MzUsLTIwLjQ0ODA5YzE2LjEzNDI0LC0xLjI1MDIgNzMuNTY4NzQsLTUuNzAwNiAxMDMuMDQzMTksLTcuOTg0NDhjMTMuMTIwNjYsLTEuMDE2NjggMTkuNzMzMjcsNi4wNzA4NiAyMC40OTM5MiwxNS44ODc1NGMwLjU5ODksNy43Mjg5NCAxLjkyNjM4LDI0Ljg2MDcyIDMuMzk1NjcsNDMuODIyOTdjMS41MzcxMSwxOS44MzcgMy4yMjk0Miw0MS42NzcxOCA0LjQwNTIzLDU2Ljg1MTQzYzEuMDkwOTQsMTQuMDc5MTIgLTYuODY2NjEsMjEuNTgyMTggLTE1Ljc0OTg3LDIyLjI3MDQ5Yy0xNi44NjMwOSwxLjMwNjY2IC03Ni4wNTE3NSw1Ljg5Mjk4IC0xMDQuODE5NzksOC4xMjIxMmMtOS44MzczOSwwLjc2MjI3IC0xNy4zNzE5OCwtNi4zNTE0MSAtMTguMjYyNzcsLTE3Ljg0Nzc1eiIgZmlsbD0iIzI3ZmYwMCIgc3Ryb2tlLXdpZHRoPSIxLjUiLz48cGF0aCBkPSJNMjQ3Ljg3NTQ2LDIzMy45NjAwOWMtMi4yNTYwMSwtMjkuMTE0NzcgLTYuNTE0NTMsLTg0LjA3MzI3IC03LjgwMDg5LC0xMDAuNjc0MzVjLTAuNzQyODIsLTkuNTg2MjkgNS40Nzg2OCwtMTkuNjg3NDQgMTUuMjk1MzYsLTIwLjQ0ODA5YzE2LjEzNDI0LC0xLjI1MDIgNzMuNTY4NzQsLTUuNzAwNiAxMDMuMDQzMTksLTcuOTg0NDhjMTMuMTIwNjYsLTEuMDE2NjggMTkuNzMzMjYsNi4wNzA4NiAyMC40OTM5MSwxNS44ODc1NWMwLjU5ODksNy43Mjg5NCAxLjkyNjM4LDI0Ljg2MDcyIDMuMzk1NjcsNDMuODIyOTdjMS41MzcxMSwxOS44MzcgMy4yMjk0Miw0MS42NzcxOCA0LjQwNTIzLDU2Ljg1MTQzYzEuMDkwOTQsMTQuMDc5MTIgLTYuODY2NjEsMjEuNTgyMTggLTE1Ljc0OTg3LDIyLjI3MDQ5Yy0xNi44NjMwOSwxLjMwNjY2IC03Ni4wNTE3NSw1Ljg5Mjk4IC0xMDQuODE5NzksOC4xMjIxM2MtOS44MzczOSwwLjc2MjI3IC0xNy4zNzE5OCwtNi4zNTE0MiAtMTguMjYyNzgsLTE3Ljg0Nzc2eiIgZmlsbD0iIzEyMDBmZiIgc3Ryb2tlLXdpZHRoPSIxLjUiLz48cGF0aCBkPSJNMjgwLjM4OTYyLDI2My43NDI0M2MtMi4yNTYwMSwtMjkuMTE0NzcgLTYuNTE0NTYsLTg0LjA3MzI3IC03LjgwMDg5LC0xMDAuNjc0MzVjLTAuNzQyODIsLTkuNTg2MjkgNS40Nzg2NywtMTkuNjg3NDQgMTUuMjk1MzUsLTIwLjQ0ODA5YzE2LjEzNDI0LC0xLjI1MDE4IDczLjU2ODc0LC01LjcwMDYgMTAzLjA0MzE5LC03Ljk4NDQ3YzEzLjEyMDY2LC0xLjAxNjY4IDE5LjczMzI3LDYuMDcwODYgMjAuNDkzOTIsMTUuODg3NTRjMC41OTg5LDcuNzI4OTQgMS45MjYzOCwyNC44NjA3MSAzLjM5NTY5LDQzLjgyMjk3YzEuNTM3MTEsMTkuODM3IDMuMjI5NDIsNDEuNjc3MTggNC40MDUyMyw1Ni44NTE0M2MxLjA5MDk0LDE0LjA3OTExIC02Ljg2NjYsMjEuNTgyMTcgLTE1Ljc0OTg3LDIyLjI3MDQ4Yy0xNi44NjMwOSwxLjMwNjY2IC03Ni4wNTE3Niw1Ljg5Mjk4IC0xMDQuODE5NzksOC4xMjIxMmMtOS44MzczOSwwLjc2MjI3IC0xNy4zNzE5NSwtNi4zNTEzOSAtMTguMjYyNzcsLTE3Ljg0NzczeiIgZmlsbD0iI2ZmMDAwMCIgc3Ryb2tlLXdpZHRoPSIxLjUiLz48L2c+PC9nPjwvc3ZnPjwhLS1yb3RhdGlvbkNlbnRlcjoxMDAuMDcyNjAzNTk4NzUyNjE6MTAyLjI5ODc4LS0+">
 </head>
 <body>
   <div id="app"></div>
@@ -160,7 +163,7 @@
 
   <div id="loading" class="screen">
     <noscript>Enable JavaScript</noscript>
-    
+    <h1 class="loading-text">Loading Website</h1>
     
     <div class="progress-bar-outer"><div class="progress-bar-inner" id="loading-inner"></div></div>
   </div>
@@ -246,7 +249,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
       };
 
       scaffolding.setUsername("player####".replace(/#/g, () => Math.floor(Math.random() * 10)));
-      scaffolding.setAccentColor("#ff4c4c");
+      scaffolding.setAccentColor("#ffffff");
 
       try {
         scaffolding.addCloudProvider(new Scaffolding.Cloud.WebSocketProvider(["wss://clouddata.turbowarp.org","wss://clouddata.turbowarp.xyz"], "posf-web-@indexhtml.sb3"));
@@ -267,7 +270,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
         enabled: true,
         warpTimer: false
       });
-      if (vm.renderer.setMaxTextureDimension) vm.renderer.setMaxTextureDimension(2048);
+      if (vm.renderer.setMaxTextureDimension) vm.renderer.setMaxTextureDimension(4096);
 
       // enforcePrivacy threat model only makes sense in the editor
       if (vm.runtime.setEnforcePrivacy) vm.runtime.setEnforcePrivacy(false);
